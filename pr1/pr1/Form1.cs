@@ -306,5 +306,15 @@ namespace pr1
         {
             teta = rnd.Next(1000);
         }
+
+        private void button18_Click_1(object sender, EventArgs e)
+        {
+            label1.Text = nNet.WrightWeight();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            label1.Text = nNet.ReadWeight();
+        }
     }
 }

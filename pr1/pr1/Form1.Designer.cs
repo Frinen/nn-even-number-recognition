@@ -46,6 +46,9 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -244,11 +247,43 @@
             this.checkBox2.Text = "Is Even";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(195, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 15);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "label1";
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(180, 68);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(162, 50);
+            this.button18.TabIndex = 23;
+            this.button18.Text = "wright";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click_1);
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(177, 124);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(162, 50);
+            this.button19.TabIndex = 24;
+            this.button19.Text = "read";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(198, 470);
+            this.ClientSize = new System.Drawing.Size(351, 470);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);
@@ -295,6 +330,9 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
     }
 }
 
